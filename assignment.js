@@ -14,8 +14,8 @@ function kilometerToMeter(kilometerValue){
     }
 
 }
-var kilometerValue=kilometerToMeter(5);
-console.log(kilometerValue);
+// var kilometerValue=kilometerToMeter(0);
+// console.log(kilometerValue);
 
 
 // Problem no: 2
@@ -56,7 +56,7 @@ function budgetCalculator(numberOfWatch,numberOfPhone,numberOfLaptop){
       return totalBudget;
 
 }
-// var cost= budgetCalculator(-1,5,-1);
+//  var cost= budgetCalculator(1,5,1);
 //  console.log(cost);
 
 //Problem no: 3
@@ -89,15 +89,14 @@ function hotelCost(numberOfDays){
 
     }
     else{
-        console.log("Number of days can not less than 0 or negative");
+        console.log("Number of days can not less than equal 0 or negative");
     }
 
 }
-// var spentDays= hotelCost(31);
+// var spentDays= hotelCost(21);
 // console.log(spentDays);
 
 // Problem no: 4
-
 
 function megaFriend(friendArray){
     // function for finding largest string from an array of strings
@@ -116,14 +115,15 @@ function megaFriend(friendArray){
 
     }
     else{
-        console.log("Your entered array can not be empty ")
+        console.log("Entered array can not be empty or undefined ")
     }
 
 
 }
-// var friendArray=[];
+// var friendArray=['rahul','sushmoy','tanmoy'];
 // var largestString= megaFriend(friendArray);
 // console.log(largestString);
+// console.log(typeof(largestString));
 
 
 
