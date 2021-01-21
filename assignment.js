@@ -13,7 +13,7 @@ function kilometerToMeter(kilometerValue) {
     }
 
 }
-// var kilometerValue=kilometerToMeter(0);
+// var kilometerValue=kilometerToMeter(600);
 // console.log(kilometerValue);
 
 
@@ -55,7 +55,7 @@ function budgetCalculator(numberOfWatch, numberOfPhone, numberOfLaptop) {
     return totalBudget;
 
 }
-//  var cost= budgetCalculator(1,5,1);
+//  var cost= budgetCalculator(-1,5,-1);
 //  console.log(cost);
 
 //Problem no: 3
@@ -119,7 +119,7 @@ function megaFriend(friendArray) {
 
 
 }
-// var friendArray=['rahul','sushmoy','tanmoy'];
+// var friendArray=['rahul','sushmoy','tany dutta'];
 // var largestString= megaFriend(friendArray);
 // console.log(largestString);
 // console.log(typeof(largestString));
